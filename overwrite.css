@@ -1,0 +1,43 @@
+.in-table {
+	width: 100%;
+	border-radius:13px;
+	border: 10px solid white;
+	background: linear-gradient(#6FBFE9, #A3D5CC);
+	padding: 10px;
+	margin: 0px;
+}
+.out-table {
+	width: 80%;
+	border-radius:20px;
+	border: 10px solid #6EC2EE;
+}
+.left-col, .right-col {
+	border-radius:10px;
+	background-color: white;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 180px;
+	color: #6BC6E4;
+	text-align: center;
+	vertical-align: middle;
+	padding: 0px !important;
+	width: 48% !important;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow:         inset 0 0 10px #000000;
+	text-shadow: 0 0 5px #000;
+	z-index:5;
+}
+.right-col {
+	float: right;
+}
+.row {
+	margin: 80px;
+}
+.back {
+	position: absolute;
+	left: 21%;
+	top: 37%;
+	background-color: #9CD6E2;
+	width: 460px;
+	height: 377px;
+}
